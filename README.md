@@ -7,7 +7,7 @@
 
 | No. | Questions |
 |---- | ---------
-| <section id="Q1">1</section> | [What is Angular Framework?](#what-is-angular-framework)|
+| <h5 id="Q1">1</h5> | [What is Angular Framework?](#what-is-angular-framework)|
 |2 | [What is the difference between AngularJS and Angular?](#what-is-the-difference-between-angularjs-and-angular)|
 |3 | [What is TypeScript?](#what-is-typescript)|
 |4 | [Write a pictorial diagram of Angular architecture?](#write-a-pictorial-diagram-of-angular-architecture)|
