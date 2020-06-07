@@ -361,7 +361,10 @@
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q6">**⬆ Back to Question 6**</a>
 
 7. ### What are components?
-    Components are the most basic UI building block of an Angular app which formed a tree of Angular components. These components are subset of directives. Unlike directives, components always have a template and only one component can be instantiated per an element in a template.
+    Components are the most basic UI building block of an Angular app. An Angular app contains a tree of Angular components.
+
+    Angular components are a subset of directives, always associated with a template. Unlike other directives, only one component can be instantiated per an element in a template.
+    
     Let's see a simple example of Angular component
     ```typescript
     import { Component } from '@angular/core';
