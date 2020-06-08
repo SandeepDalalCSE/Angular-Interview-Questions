@@ -942,8 +942,7 @@
 
 32. ### Give an example of custom pipe?
     You can create custom reusable pipes for the transformation of existing value. For example, let us create a custom pipe for finding file size based on an extension.
-
-        ```typescript
+    ```typescript
         import { Pipe, PipeTransform } from '@angular/core';
 
         @Pipe({name: 'customFileSizePipe'})
@@ -952,16 +951,15 @@
             return (size / (1024 * 1024)).toFixed(2) + extension;
           }
         }
-        ```
+    ```
 
     Now you can use the above pipe in template expression as below,
-
-        ```typescript
+    ```typescript
         template: `
         <h2>Find the size of a file</h2>
         <p>Size: {{288966 | customFileSizePipe: 'GB'}}</p>
-        `
-        ```
+        ` 
+    ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q32">**⬆ Back to Question 32**</a>
 
