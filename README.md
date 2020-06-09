@@ -1188,6 +1188,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q40">**⬆ Back to Question 40**</a>
 
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
+
 41. ### What is subscribing?
     An Observable instance begins publishing values only when someone subscribes to it. So you need to subscribe by calling the **subscribe()** method of the instance, passing an observer object to receive the notifications.
 
@@ -1215,6 +1219,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q41">**⬆ Back to Question 41**</a>
 
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
+
 42. ### What is an observable?
     An Observable is a unique Object similar to a Promise that can help manage async code. Observables are not part of the JavaScript language so we need to rely on a popular Observable library called RxJS.
     The observables are created using new keyword.
@@ -1231,6 +1239,10 @@
     ```
 
 **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q42">**⬆ Back to Question 42**</a>
+
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
 
 43. ### What is an observer?
     Observer is an interface for a consumer of push-based notifications delivered by an Observable. It has below structure,
@@ -1252,6 +1264,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q43">**⬆ Back to Question 43**</a>
 
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
+
 44. ### What is the difference between promise and observable?
     Below are the list of differences between promise and observable,
 
@@ -1263,6 +1279,10 @@
        | Provides chaining and subscription to handle complex applications | Uses only .then() clause |
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q44">**⬆ Back to Question 44**</a>
+
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
 
 45. ### What is multicasting?
     Multi-casting is the practice of broadcasting to a list of multiple subscribers in a single execution.
@@ -1286,6 +1306,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q45">**⬆ Back to Question 45**</a>
 
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
+
 46. ### How do you perform error handling in observables?
     You can handle errors by specifying an **error callback** on the observer instead of relying on try/catch which are ineffective in asynchronous environment.
 
@@ -1298,6 +1322,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q46">**⬆ Back to Question 46**</a>
+
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
 
 47. ### What is the short hand notation for subscribe method?
     The subscribe() method can accept callback function definitions in line, for next, error, and complete handlers is known as short hand notation or Subscribe method with positional arguments.
@@ -1313,6 +1341,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q47">**⬆ Back to Question 47**</a>
 
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
+
 48. ### What are the utility functions provided by RxJS?
     The RxJS library also provides below utility functions for creating and working with observables.
 
@@ -1323,6 +1355,10 @@
     5. Composing multiple streams
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q48">**⬆ Back to Question 48**</a>
+
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
 
 49. ### What are observable creation functions?
     RxJS provides creation functions for the process of creating observables from things such as promises, events, timers and Ajax requests. Let us explain each of them with an example,
@@ -1362,15 +1398,27 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q49">**⬆ Back to Question 49**</a>
 
+----
+  _Questions_ <a href="#Q41">**41**</a> | <a href="#Q42">**42**</a> | <a href="#Q43">**43**</a> | <a href="#Q44">**44**</a> | <a href="#Q45">**45**</a> | <a href="#Q46">**46**</a> | <a href="#Q47">**47**</a> | <a href="#Q48">**48**</a> | <a href="#Q49">**49**</a> | <a href="#Q50">**50**</a>
+  ----
+
 50. ### What will happen if you do not supply handler for observer?
     Normally an observer object can define any combination of next, error and complete notification type handlers. If you don't supply a handler for a notification type, the observer just ignores notifications of that type.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q50">**⬆ Back to Question 50**</a>
 
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
+
 51. ### What are angular elements?
     Angular elements are Angular components packaged as **custom elements**(a web standard for defining new HTML elements in a framework-agnostic way). Angular Elements hosts an Angular component, providing a bridge between the data and logic defined in the component and standard DOM APIs, thus, providing a way to use Angular components in `non-Angular environments`.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q51">**⬆ Back to Question 51**</a>
+
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
 
 52. ### What is the browser support of Angular Elements?
     Since Angular elements are packaged as custom elements the browser support of angular elements is same as custom elements support.
@@ -1387,15 +1435,27 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q52">**⬆ Back to Question 52**</a>
 
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
+
 53. ### What are custom elements?
     Custom elements (or Web Components) are a Web Platform feature which extends HTML by allowing you to define a tag whose content is created and controlled by JavaScript code. The browser maintains a `CustomElementRegistry` of defined custom elements, which maps an instantiable JavaScript class to an HTML tag. Currently this feature is supported by Chrome, Firefox, Opera, and Safari, and available in other browsers through polyfills.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q53">**⬆ Back to Question 53**</a>
 
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
+
 54. ### Do I need to bootstrap custom elements?
     No, custom elements bootstrap (or start) automatically when they are added to the DOM, and are automatically destroyed when removed from the DOM. Once a custom element is added to the DOM for any page, it looks and behaves like any other HTML element, and does not require any special knowledge of Angular.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q54">**⬆ Back to Question 54**</a>
+
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
 
 55. ### Explain how custom elements works internally?
     Below are the steps in an order about custom elements functionality,
@@ -1409,6 +1469,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q55">**⬆ Back to Question 55**</a>
 
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
+
 56. ### How to transfer components to custom elements?
     Transforming components to custom elements involves **two** major steps,
     1. **Build custom element class:** Angular provides the `createCustomElement()` function for converting an Angular component (along with its dependencies) to a custom element. The conversion process implements `NgElementConstructor` interface, and creates a constructor class which is used to produce a self-bootstrapping instance of Angular component.
@@ -1419,12 +1483,20 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q56">**⬆ Back to Question 56**</a>
 
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
+
 57. ### What are the mapping rules between Angular component and custom element?
     The Component properties and logic maps directly into HTML attributes and the browser's event system. Let us describe them in two steps,
     1. The createCustomElement() API parses the component input properties with corresponding attributes for the custom element. For example, component @Input('myInputProp') converted as custom element attribute `my-input-prop`.
     2. The Component outputs are dispatched as HTML Custom Events, with the name of the custom event matching the output name. For example, component @Output() valueChanged = new EventEmitter() converted as custom element with dispatch event as "valueChanged".
 
 **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q57">**⬆ Back to Question 57**</a>
+
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
 
 58. ### How do you define typings for custom elements?
     You can use the `NgElement` and `WithProperties` types exported from @angular/elements.
@@ -1447,10 +1519,18 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q58">**⬆ Back to Question 58**</a>
 
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
+
 59. ### What are dynamic components?
     Dynamic components are the components in which components location in the application is not defined at build time.i.e, They are not used in any angular template. But the component is instantiated and placed in the application at runtime.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q59">**⬆ Back to Question 59**</a>
+
+----
+  _Questions_ <a href="#Q51">**51**</a> | <a href="#Q52">**52**</a> | <a href="#Q53">**53**</a> | <a href="#Q54">**54**</a> | <a href="#Q55">**55**</a> | <a href="#Q56">**56**</a> | <a href="#Q57">**57**</a> | <a href="#Q58">**58**</a> | <a href="#Q59">**59**</a> | <a href="#Q60">**60**</a>
+  ----
 
 60. ### What are the various kinds of directives?
     There are mainly three kinds of directives,
@@ -1460,10 +1540,18 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q60">**⬆ Back to Question 60**</a>
 
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
+
 61. ### How do you create directives using CLI?
     You can use CLI command `ng generate directive` to create the directive class file. It creates the source file(`src/app/components/directivename.directive.ts`), the respective test file(.spec.ts) and declare the directive class file in root module.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q61">**⬆ Back to Question 61**</a>
+
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
 
 62. ### Give an example for attribute directives?
     Let's take simple highlighter behavior as a example directive for DOM element. You can create and apply the attribute directive using below steps,
@@ -1492,10 +1580,18 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q62">**⬆ Back to Question 62**</a>
 
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
+
 63. ### What is Angular Router?
     Angular Router is a mechanism in which navigation happens from one view to the next as users perform application tasks. It borrows the concepts or model of browser's application navigation.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q63">**⬆ Back to Question 63**</a>
+
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
 
 64. ### What is the purpose of base href tag?
     The routing application should add <base> element to the index.html as the first child in the <head> tag in order to indicate how to compose navigation URLs. If app folder is the application root then you can set the href value as below
@@ -1506,6 +1602,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q64">**⬆ Back to Question 64**</a>
 
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
+
 65. ### What are the router imports?
     The Angular Router which represents a particular component view for a given URL is not part of Angular Core. It is available in library named `@angular/router` to import required router components. For example, we import them in app module as below,
 
@@ -1514,6 +1614,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q65">**⬆ Back to Question 65**</a>
+
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
 
 66. ### What is router outlet?
     The RouterOutlet is a directive from the router library and it  acts as a placeholder that marks the spot in the template where the router should display the components for that outlet. Router outlet is used like a component,
@@ -1524,6 +1628,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q66">**⬆ Back to Question 66**</a>
+
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
 
 67. ### What are router links?
     The RouterLink is a directive on the anchor tags give the router control over those elements. Since the navigation paths are fixed, you can assign string values to router-link directive as below,
@@ -1539,6 +1647,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q67">**⬆ Back to Question 67**</a>
 
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
+
 68. ### What are active router links?
     RouterLinkActive is a directive that toggles css classes for active RouterLink bindings based on the current RouterState. i.e, the Router will add CSS classes when this link is active and and remove when the link is inactive. For example, you can add them to RouterLinks as below
 
@@ -1552,6 +1664,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q68">**⬆ Back to Question 68**</a>
+
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
 
 69. ### What is router state?
     RouterState is a tree of activated routes. Every node in this tree knows about the "consumed" URL segments, the extracted parameters, and the resolved data. You can access the current RouterState from anywhere in the application using the `Router service` and the `routerState` property.
@@ -1570,6 +1686,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q69">**⬆ Back to Question 69**</a>
+
+----
+  _Questions_ <a href="#Q61">**61**</a> | <a href="#Q62">**62**</a> | <a href="#Q63">**63**</a> | <a href="#Q64">**64**</a> | <a href="#Q65">**65**</a> | <a href="#Q66">**66**</a> | <a href="#Q67">**67**</a> | <a href="#Q68">**68**</a> | <a href="#Q69">**69**</a> | <a href="#Q70">**70**</a>
+  ----
 
 70. ### What are router events?
     During each navigation, the Router emits navigation events through the Router.events property allowing you to track the lifecycle of the route.
@@ -1594,6 +1714,10 @@
     16. Scroll
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q70">**⬆ Back to Question 70**</a>
+
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
 
 71. ### What is activated route?
     ActivatedRoute contains the information about a route associated with a component loaded in an outlet. It can also be used to traverse the router state tree. The ActivatedRoute will be injected as a router service to access the information. In the below example, you can access route path and parameters,
