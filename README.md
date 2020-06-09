@@ -1736,6 +1736,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q71">**⬆ Back to Question 71**</a>
 
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
+
 72. ### How do you define routes?
      A router must be configured with a list of route definitions. You configures the router with routes via the `RouterModule.forRoot()` method, and adds the result to the AppModule's `imports` array.
 
@@ -1769,6 +1773,10 @@
 
    **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q72">**⬆ Back to Question 72**</a>
 
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
+
 73. ### What is the purpose of Wildcard route?
     If the URL doesn't match any predefined routes then it causes the router to throw an error and crash the app. In this case, you can use wildcard route. A wildcard route has a path consisting of two asterisks to match every URL.
 
@@ -1779,15 +1787,27 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q73">**⬆ Back to Question 73**</a>
 
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
+
 74. ### Do I need a Routing Module always?
     No, the Routing Module is a design choice. You can skip routing Module (for example, AppRoutingModule) when the configuration is simple and merge the routing configuration directly into the companion module (for example, AppModule). But it is recommended when the configuration is complex and includes specialized guard and resolver services.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q74">**⬆ Back to Question 74**</a>
 
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
+
 75. ### What is Angular Universal?
     Angular Universal is a server-side rendering module for Angular applications in various scenarios. This is a community driven project and available under @angular/platform-server package. Recently Angular Universal is integrated with Angular CLI.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q75">**⬆ Back to Question 75**</a>
+
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
 
 76. ### What are different types of compilation in Angular?
     Angular offers two ways to compile your application,
@@ -1795,6 +1815,10 @@
     2. Ahead-of-Time (AOT)
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q76">**⬆ Back to Question 76**</a>
+
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
 
 77. ### What is JIT?
     Just-in-Time (JIT) is a type of compilation that compiles your app in the browser at runtime. JIT compilation is the default when you run the ng build (build only) or ng serve (build and serve locally) CLI commands. i.e, the below commands used for JIT compilation,
@@ -1805,6 +1829,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q77">**⬆ Back to Question 77**</a>
+
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
 
 78. ### What is AOT?
     Ahead-of-Time (AOT) is a type of compilation that compiles your app at build time. For AOT compilation, include the `--aot` option with the ng build or ng serve command as below,
@@ -1817,10 +1845,18 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q78">**⬆ Back to Question 78**</a>
 
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
+
 79. ### Why do we need compilation process?
     The Angular components and templates cannot be understood by the browser directly. Due to that Angular applications require a compilation process before they can run in a browser. For example, In AOT compilation, both Angular HTML and TypeScript code converted into efficient JavaScript code during the build phase before browser runs it.
 
  **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q79">**⬆ Back to Question 79**</a>
+
+----
+  _Questions_ <a href="#Q71">**71**</a> | <a href="#Q72">**72**</a> | <a href="#Q73">**73**</a> | <a href="#Q74">**74**</a> | <a href="#Q75">**75**</a> | <a href="#Q76">**76**</a> | <a href="#Q77">**77**</a> | <a href="#Q78">**78**</a> | <a href="#Q79">**79**</a> | <a href="#Q80">**80**</a>
+  ----
 
 80. ### What are the advantages with AOT?
     Below are the list of AOT benefits,
@@ -1833,12 +1869,20 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q80">**⬆ Back to Question 80**</a>
 
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
+
 81. ### What are the ways to control AOT compilation?
     You can control your app compilation in two ways,
     1. By providing template compiler options in the `tsconfig.json` file
     2. By configuring Angular metadata with decorators
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q81">**⬆ Back to Question 81**</a>
+
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
 
 82. ### What are the restrictions of metadata?
     In Angular, You must write metadata with the following general constraints,
@@ -1849,6 +1893,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q82">**⬆ Back to Question 82**</a>
 
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
+
 83. ### What are the two phases of AOT?
     The AOT compiler works in three phases,
     1. **Code Analysis:** The compiler records a representation of the source
@@ -1856,6 +1904,10 @@
     3. **Validation:** In this phase, the Angular template compiler uses the TypeScript compiler to validate the binding expressions in templates.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q83">**⬆ Back to Question 83**</a>
+
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
 
 84. ### Can I use arrow functions in AOT?
     No, Arrow functions or lambda functions can’t be used to assign values to the decorator properties. For example, the following snippet is invalid:
@@ -1887,15 +1939,27 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q84">**⬆ Back to Question 84**</a>
 
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
+
 85. ### What is the purpose of metadata json files?
     The metadata.json file can be treated as a diagram of the overall structure of a decorator's metadata, represented as an abstract syntax tree(AST). During the analysis phase, the AOT collector scan the metadata recorded in the Angular decorators and outputs metadata information in .metadata.json files, one per .d.ts file.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q85">**⬆ Back to Question 85**</a>
 
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
+
 86. ### Can I use any javascript feature for expression syntax in AOT?
     No, the AOT collector understands a subset  of (or limited) JavaScript features. If an expression uses unsupported syntax, the collector writes an error node to the .metadata.json file. Later point of time, the compiler reports an error if it needs that piece of metadata to generate the application code.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q86">**⬆ Back to Question 86**</a>
+
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
 
 87. ### What is folding?
     The compiler can only resolve references to exported symbols in the metadata. Where as some of the non-exported members are folded while generating the code. i.e Folding is a process in which the collector evaluate an expression during collection and record the result in the .metadata.json instead of the original expression.
@@ -1917,6 +1981,10 @@
     Remember that the compiler can’t fold everything. For example, spread operator on arrays, objects created using new keywords and function calls.
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q87">**⬆ Back to Question 87**</a>
+
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
 
 88. ### What are macros?
     The AOT compiler supports macros in the form of functions or static methods that return an expression in a `single return expression`.
@@ -1947,6 +2015,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q89">**⬆ Back to Question 89**</a>
+
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
 
 89. ### Give an example of few metadata errors?
     Below are some of the errors encountered in metadata,
@@ -2020,10 +2092,18 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q89">**⬆ Back to Question 89**</a>
 
+----
+  _Questions_ <a href="#Q81">**81**</a> | <a href="#Q82">**82**</a> | <a href="#Q83">**83**</a> | <a href="#Q84">**84**</a> | <a href="#Q85">**85**</a> | <a href="#Q86">**86**</a> | <a href="#Q87">**87**</a> | <a href="#Q88">**88**</a> | <a href="#Q89">**89**</a> | <a href="#Q90">**90**</a>
+  ----
+
 90. ### What is metadata rewriting?
     Metadata rewriting is the process in which the compiler converts the expression initializing the fields such as useClass, useValue, useFactory, and data into an exported variable, which replaces the expression. Remember that the compiler does this rewriting during the emit of the .js file but not in definition files( .d.ts file).
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q90">**⬆ Back to Question 90**</a>
+
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
 
 91. ### How do you provide configuration inheritance?
     Angular Compiler supports configuration inheritance through extends in the tsconfig.json on angularCompilerOptions. i.e, The configuration from the base file(for example, tsconfig.base.json) are loaded first, then overridden by those in the inheriting config file.
@@ -2045,6 +2125,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q91">**⬆ Back to Question 91**</a>
 
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
+
 92. ### How do you specify angular template compiler options?
     The angular template compiler options are specified as members of the **angularCompilerOptions** object in the tsconfig.json file. These options will be specified adjecent to typescript compiler options.
 
@@ -2063,6 +2147,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q92">**⬆ Back to Question 92**</a>
+
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
 
 93. ### How do you enable binding expression validation?
     You can enable binding expression validation explicitly by adding the compiler option **fullTemplateTypeCheck** in the "angularCompilerOptions" of the project's tsconfig.json. It produces error messages when a type error is detected in a template binding expression.
@@ -2084,6 +2172,10 @@
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q93">**⬆ Back to Question 93**</a>
 
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
+
 94. ### What is the purpose of any type cast function?
     You can disable binding expression type checking using $any() type cast function(by surrounding the expression). In the following example, the error Property contacts does not exist is suppressed by casting user to the any type.
     ```javascript
@@ -2095,6 +2187,10 @@
     ```
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q94">**⬆ Back to Question 94**</a>
+
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
 
 95. ### What is Non null type assertion operator?
     You can use the non-null type assertion operator to suppress the Object is possibly 'undefined' error. In the following example, the user and contact properties are always set together, implying that contact is always non-null if user is non-null. The error is suppressed in the example by using contact!.email.
@@ -2116,6 +2212,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q95">**⬆ Back to Question 95**</a>
 
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
+
 96. ### What is type narrowing?
     The expression used in an ngIf directive is used to narrow type unions in the Angular template compiler similar to if expression in typescript. So *ngIf allows the typeScript compiler to infer that the data used in the binding expression will never be undefined.
     ```javascript
@@ -2130,6 +2230,10 @@
 
  **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q96">**⬆ Back to Question 96**</a>
 
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
+
 97. ### How do you describe various dependencies in angular application?
     The dependencies section of package.json with in an angular application can be divided as follow,
 
@@ -2139,15 +2243,27 @@
 
 **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q97">**⬆ Back to Question 97**</a>
 
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
+
 98. ### What is zone?
     A Zone is an execution context that persists across async tasks. Angular relies on zone.js to run Angular's change detection processes when native JavaScript operations raise events
 
   **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q98">**⬆ Back to Question 98**</a>
 
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
+
 99. ### What is the purpose of common module?
     The commonly-needed services, pipes, and directives provided by @angular/common module. Apart from these HttpClientModule is available under @angular/common/http.
 
  **[⬆ Back to Top](#table-of-contents)**   |   <a href="#Q99">**⬆ Back to Question 99**</a>
+
+----
+  _Questions_ <a href="#Q91">**91**</a> | <a href="#Q92">**92**</a> | <a href="#Q93">**93**</a> | <a href="#Q94">**94**</a> | <a href="#Q95">**95**</a> | <a href="#Q96">**96**</a> | <a href="#Q97">**97**</a> | <a href="#Q98">**98**</a> | <a href="#Q99">**99**</a> | <a href="#Q100">**100**</a>
+  ----
 
 100. ### What is codelyzer?
      Codelyzer provides set of tslint rules for static code analysis of Angular TypeScript projects. ou can run the static code analyzer over web apps, NativeScript, Ionic etc. Angular CLI has support for this and it can be use as below,
